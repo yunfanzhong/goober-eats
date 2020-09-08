@@ -30,3 +30,21 @@ The program's output will be formatted like the example below (this is a cut dow
 > Proceed southeast on Levering Avenue for 0.08 miles <br />
 > You are back at the depot and your deliveries are done! <br />
 > 0.5 miles travelled for all deliveries. <br />
+
+ExpandableHashMap is a custom, flexibly sized hash table that I coded to store the map information.
+
+main.cpp implements a command-line interface.
+
+## Building and Running ##
+
+Compile the code with main.cpp. Open a Windows/macOS command shell and switch to the directory that holds the compiled executable file (along with mapdata.txt and deliveries.txt).
+
+Then, run the following command in the terminal:
+```
+GooberEats.exe \path\to\mapdata.txt \path\to\deliveries.txt
+```
+
+This is an example of what the line will look like on Windows.
+```
+C:\PATH\TO\CODE> GooberEats.exe c:\path\to\mapdata.txt c:\path\to\deliveries.txt
+```
